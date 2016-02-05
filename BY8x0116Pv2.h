@@ -11,11 +11,10 @@
 
 class BY8x0116Pv2
 {
-	public:
+    public:
   		BY8x0116Pv2();
   		BY8x0116Pv2(Stream& port);
     public:
-        BY8x0116Pv2();
         void init(int PIN_BUSY, int VOLUME = 30);
         void playFile(int FILE_NUMBER, int VOLUME = -1);
         void playFileAndWait(int FILE_NUMBER, int VOLUME = -1);
