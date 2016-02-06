@@ -154,12 +154,11 @@ void BY8x0116Pv2::volumeDown()
 
 void BY8x0116Pv2::stopPlay()
 {   
-    uint8_t play1[8] = { 0X7E, 0XFF, 0X06, 0X16, 0X00, 0x00, 0x00, 0XEF };
-    for (int i=0; i<8; i++) 
+    uint8_t play1[5] = { 0X7E, 0X03, 0X0E, 0X0D, 0XEF };
+    for (int i=0; i<5; i++) 
     {
         _port.write( play1[i] ); 
     }
+
+
 }
-
-
-
