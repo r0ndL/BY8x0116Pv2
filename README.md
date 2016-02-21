@@ -1,7 +1,7 @@
 # BY8x0116Pv2
 This is an Arduino library created for both the BY8001-16P and the BY8301-16P MP3 soundboard modules.
 
-This is a forked bersion of both [Critters Library](https://github.com/Critters/MP3FLASH16P) and [afreeland Library](https://github.com/afreeland/MP3FLASH16P) both being excellent libraries.  After some research, discovered each version of the MP3FLASH16P was developed for 2 different modules, thus the reason for similar code but different passed commands.  BY8x01 library was created to reduce the confusion.  Additionally this version now supports declaring the ports used in the sketch instead of modifying the .cpp file.
+This is a forked bersion of both [Critters Library](https://github.com/Critters/MP3FLASH16P) and [afreeland Library](https://github.com/afreeland/MP3FLASH16P) both being excellent libraries.  After some research, discovered each version of the MP3FLASH16P was developed for 2 different modules, thus the reason for similar code but different passed commands.  BY8x0116Pv2 library was created to reduce the confusion.  Additionally this version now supports declaring the ports used in the sketch instead of modifying the .cpp file.
 
 # Original Readme by afreeland below
 MP3FLASH16P
